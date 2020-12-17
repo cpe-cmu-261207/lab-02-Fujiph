@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="style/style.css">
+    <head>
+        <title>Page Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          body {background-color: rgb(54, 54, 54);}
+          h1 {color: white;}
+          h2 {color:white;}
+          .colo-1 {color: black;}
+          .colo-2 {color: white;}
+          p {color: white;}
+          a {color:white;}
+          * {
+              box-sizing: border-box;
+            }
+
+            body {
+              margin: 0;
+            }
+
+            /* Style the header */
+            .header {
+              background-color: #969696;
+              padding: 20px;
+              text-align: center;
+            }
+
+            /* Style the top navigation bar */
+            .topnav {
+              overflow: hidden;
+              background-color: rgb(71, 71, 71);
+            }
+
+            /* Style the topnav links */
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            /* Change color on hover */
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            /* Create three equal columns that floats next to each other */
+            .column {
+              float: left;
+              width: 50%;
+              padding: 15px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width:600px) {
+              .column {
+                width: 100%;
+              }
+            }
+          
+        </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1 class="colo-1">Header</h1>
+        <p class="colo-1">Resize the browser window to see the responsive effect.</p>
+      </div>
+      
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="gpa.html">GPA Calculator</a>
+      </div>
+      
+      
+        <div class="column">
+          <img src="71817251_2632691073456661_5237096882370510848_o.jpg" width="50%">
+          <h2>Aueboon Ruanekamfu</h2>
+          <p>Pokemon Trainner!!</p>
+        </div>
+        
+        <div class="column">
+          <h1>This are some of my information!</h1>
+          <p>Now studying Computer Engineering Chiang Mai University.</p>
+          <h2>Skills</h2> 
+          <p>Project design , Data Structures</p>
+      </div>
+
+    </body>
+</html>
